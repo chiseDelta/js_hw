@@ -1,0 +1,10 @@
+body {
+    background-color: #282c34;
+    color: #e7b835;
+    font-family: "Comic Sans MS",serif;
+    font-size: 18px;
+}
+
+.product-image {
+    width: 300px;
+}
