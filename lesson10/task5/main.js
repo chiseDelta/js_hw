@@ -2,8 +2,8 @@
 const h1 = document.createElement('h1');
 const button = document.createElement('button');
 
-h1.innerText = 'Hello World!';
-button.innerText = 'Delete World';
+h1.innerText = 'World!';
+button.innerText = 'Hide World';
 
 document.body.append(h1, button);
 
@@ -11,4 +11,5 @@ let buttonStatus = true;
 button.addEventListener('click', () => {
     h1.style.color = buttonStatus ? 'white' : 'black';
     buttonStatus = !buttonStatus
+    button.innerText = !buttonStatus ? 'Show World' : 'Hide World'
 })
